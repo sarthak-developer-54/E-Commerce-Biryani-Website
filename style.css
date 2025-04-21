@@ -1,0 +1,392 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe4b5;
+    margin: 0;
+    padding: 0;
+	/* Style for all images inside the hero section */
+ 
+ 
+
+}
+
+header {
+    background-color: #d2691e;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #8b4513;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ img {
+    width: 1450px;
+	height:1250px;
+	
+    margin:2px;
+    border-radius:10px;
+}
+
+.about {
+    padding: 20px;
+    font-size: 15;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8b4513; /* Dark brown background */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    width: 30%;
+    text-align: left;
+}
+
+.footer-about h2,
+.footer-links h3,
+.footer-contact h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #ffdd99; /* Light yellow text */
+    transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 20px;
+    background-color: #663300;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-about,
+    .footer-links,
+    .footer-contact {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+++
+
+
+
+div{
+display:flex;
+}
+/* Food Menu Section */
+.food-menu {
+    text-align: center;
+    background-color: #fff8dc; /* Light beige background */
+    padding: 40px 0;
+}
+
+.food-menu h2 {
+    font-size: 28px;
+    color: #8b4513;
+    margin-bottom: 20px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    font-size: 20px;
+    color: #d2691e;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+
+}
+/* Order Now Button */
+.order-btn {
+    background-color: #e44d26; /* Red-Orange Button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.order-btn:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+/* Set Background Image */
+body {
+    background-image: url('background.jpg'); /* Image file */
+    background-size: cover; /* Cover the full screen */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fixed while scrolling */
+    background-repeat: no-repeat; /* No repeating */
+    font-family: Arial, sans-serif;
+    color: white; /* Light text for contrast */
+}
+
+/* Optional: Add a dark overlay for readability */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
+}
+/* Back to Top Button */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e44d26; /* Orange button */
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Hidden initially */
+    transition: 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+}
+/* Back to Top Button */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e44d26; /* Orange button */
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Hidden initially */
+    transition: 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+}
+/* Sticky Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #e44d26; /* Orange background */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Ensure content does not hide behind navbar */
+body {
+    padding-top: 60px; /* Adjust based on navbar height */
+}
+/* Ensure all images scale properly */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Text */
+h1, h2, h3 {
+    font-size: clamp(16px, 5vw, 32px);
+}
+
+/* Flexible Containers */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Responsive Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Responsive Grid for Menu Items */
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Responsive Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        background: #e44d26;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .navbar ul.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu-items {
+        grid-template-columns: 1fr; /* Single column on mobile */
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
